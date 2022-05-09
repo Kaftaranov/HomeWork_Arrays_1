@@ -12,7 +12,7 @@ public class Main {
            float avgValue;
            char[] reverseFullName = {'r','u', 'm', 'i', 'T', ' ', 'v','o','n','a','r', 'a', 't', 'f', 'a', 'K'};
 
-           for (int i = 0; i < finArray.length ; i++) {
+           for (int i =0; i < finArray.length; i++) {
                finArray[i] = random.nextInt(100_000) + 100_000;          //Инициализация массива
                System.out.print(finArray[i] + " ");                            //Вывод на печать содержимого массива
                if (i == 14) { System.out.println();}                           //и его форматирование
@@ -24,8 +24,8 @@ public class Main {
            System.out.println("Total expenses for last month is " + monthExpenses);
 // Задача №2
            maxValue = minValue = finArray[0];                               // Инициализация макс. и мин. значений
-           //minValue = maxValue;
-           for (int dailyExpenses : finArray) {                             // Поиск
+           for (int dailyExpenses : finArray)
+           {                                                                // Поиск
                if (dailyExpenses > maxValue) maxValue = dailyExpenses;      // максимального и
                if (dailyExpenses < minValue) minValue = dailyExpenses;      // минимального значения
            }
@@ -35,11 +35,9 @@ public class Main {
            System.out.println("Average daily expense is " + monthExpenses/30);  // Средние затраты в день
            System.out.println("----------------------------------------------------------------------------------");
 // Задача №4
-           int i = reverseFullName.length - 1;
-           while (i > -1)
+           for (int i = reverseFullName.length - 1; i >= 0; i--)
            {
                System.out.print(reverseFullName[i]);
-               i--;
            }
            System.out.println();
            System.out.println("----------------------------------------------------------------------------------");

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caac600e-2dbe-4ea1-9b8d-3411fae12827" name="Changes" comment="Initial commit">
+    <list default="true" id="caac600e-2dbe-4ea1-9b8d-3411fae12827" name="Changes" comment="Final commit of the HomeWork">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -60,7 +60,13 @@
       <workItem from="1651614696012" duration="3173000" />
       <workItem from="1651626436967" duration="2066000" />
       <workItem from="1651665018618" duration="2392000" />
-      <workItem from="1651673896908" duration="1824000" />
+      <workItem from="1651673896908" duration="1988000" />
+      <workItem from="1651751920890" duration="130000" />
+      <workItem from="1651898617270" duration="190000" />
+      <workItem from="1652073046064" duration="962000" />
+      <workItem from="1652076018607" duration="343000" />
+      <workItem from="1652078661312" duration="246000" />
+      <workItem from="1652080712442" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1651495182518</created>
@@ -69,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651495182518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final commit of the HomeWork">
+      <created>1651675873655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651675873655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Final commit of the HomeWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final commit of the HomeWork" />
   </component>
 </project>
